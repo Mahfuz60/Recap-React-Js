@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const loadingMessage = <p>Data is Loading!!!</p>;
+// const loadingMessage = <p>Data is Loading!!!</p>;
 
 function User(props) {
   const [users, setUsers] = useState([]);
@@ -16,7 +16,7 @@ function User(props) {
       });
   }, []);
 
-  //Using Map
+  //Using Map 
   const userDetails = users.map((user, index) => {
     return (
       <div key={index}>
@@ -33,7 +33,7 @@ function User(props) {
   return (
     <div>
       <h1>User Details</h1>
-      {isLoading && loadingMessage}
+      {/* {isLoading && loadingMessage} */}
       {userDetails}
     </div>
   );
