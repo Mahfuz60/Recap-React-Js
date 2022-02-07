@@ -1,12 +1,12 @@
 import React from 'react';
 
-function Uncle(props) {
+function Sister(props) {
   return (
     <div>
-      <h1>Uncle</h1>
+      <h1>Sister</h1>
       
     </div>
   );
 }
 
-export default Uncle;
+export default Sister;

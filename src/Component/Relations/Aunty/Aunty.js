@@ -1,10 +1,9 @@
-import React from 'react';
+import React from "react";
 
 function Aunty(props) {
   return (
-    <div>
+    <div className="grandfather">
       <h1>Aunty</h1>
-      
     </div>
   );
 }
